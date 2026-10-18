@@ -1,0 +1,8 @@
+{
+  "version": "2.0.0",
+  "tasks": [{
+    "label": "build",
+    "type": "shell",
+    "command": "gcc -g main.c lib/calc.c -o main_debug"
+  }]
+}
